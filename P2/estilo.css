@@ -1,0 +1,81 @@
+     .navMenu{
+        font-size: large;
+        color: black;
+        text-align: center;
+        word-spacing: 40px;
+        padding: 5px 5px 5px 5px;
+        border-width: 3px;
+        border-color: rgb(45, 2, 80);
+        border-style: solid;
+        background-color:rgb(10, 145, 194);
+    }
+    .estiloSec{
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border: 5px rgb(45, 2, 80);
+        border-width: 3px;
+        border-style: solid;
+        display:flex;
+        justify-content: center;
+    }
+
+    .headerPrincipal{
+        border-width: 3px;
+        border-color:rgb(45, 2, 80);
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:white;
+        text-align: center;
+        background-image: url(img/fondo2.jpg);
+    }
+    .anuncioI{
+        float: left;
+        border-style: solid;
+        border: 3px black;
+        border-width: 3px;
+    }
+    .anuncioD{
+        float: right;
+        border-style: solid;
+        border: 3px black;
+        border-width: 3px;
+    }
+    .estiloTabla{
+        table-layout: auto;
+        width: 100%; 
+        text-align: center;
+        font-size: x-large;
+        padding: 5px 5px 5px 5px;
+        background-image: url(img/fondo.jpg);
+    }
+    .textoIzq{
+        text-align: left;
+    }
+    .zonaAutor{
+        float: left;
+        width: 25%;
+        height:500px;
+    }
+    .zonaPost{
+        float: left;
+        width: 74%;
+        height:500px;
+        padding-left: 1px;
+    }
+    .textoCabeceraPost{
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    .estiloArticulo{
+        border-style: solid;
+        border: 1px black;
+        border-width: 1px;
+    }
+    .articulo{
+        min-height: 500px;
+    }
+    .publicacionIzquierda{
+        font-weight: bold;
+        padding-right: 30px;
+    }

@@ -1,0 +1,18 @@
+.vMain:hover  ~ .vOtros{
+    background-color: green;
+}
+/*
+Esto no va dentro de la tabla, parece que solo funciona con divs
+y aunque coloque un div dentro de un th tampoco funciona.
+
+Como apaño podría poner un 
+        display:flex;
+        justify-content: center;
+con un monton de divs que contienen divs, emulando una tabla.
+*/
+.vMain:hover ~ th.vOtros{
+    background-color: green;
+}
+.a:hover ~ .b {
+    background: #ccc
+}
