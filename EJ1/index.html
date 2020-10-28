@@ -12,22 +12,26 @@
     <div class="vOtros">Firstname</div>
     <div>
         <div class="vMain">Verde!Aquiii</div>
+        <p class="prueba">PASA POR AQUI</p>
+        <p class="verde">VENGA FUNCIONA JOPUTAAA</p>
     <table>
+      <p class="verde">VENGA FUNCIONA JOPUTAAA</p>
         <div class="vMain">Verde!</div>
         <div class="vOtros">Firstname</div>
-        <div class="vOtros">Firstname</div>
+        <div class="verde">Firstname</div>
+        <p class="prueba">PASA POR AQUI</p>
         <tr>
-          <th class="vOtros">Firstname</th>
+          <th class="verde">Firstname</th>
           <th>Lastname</th> 
           <th>Age</th>
         </tr>
         <tr>
-          <td>Jill</td>
+          <td class="verde">Jill</td>
           <td>Smith</td>
           <td>50</td>
         </tr>
         <tr>
-          <td>Eve</td>
+         <td>Eve</td>
           <td>Jackson</td>
           <td>94</td>
         </tr>
@@ -40,7 +44,8 @@
       </table>
     </div>
     <!--Al menos esta parte de aqui abajo funciona-->
-    <p class="verde">lol</p>
+
+    <a href="" class="verde">Lolazo</a>
     <p>loletee</p>
     <div class="a">Div A</div>
     <div>random other elements</div>
@@ -49,5 +54,45 @@
     <div class="b">huehuehue</div>
     <div>random other elements</div>
     <div class="b">Div B</div>
+    <p class="prueba">yeheee</p>
+    <p>lol</p>
+    <p class="prueba">yeheee</p>
+    <p>lol</p>
+    <p class="prueba">yeheee</p>
+
+    <!--Pruebas-->
+    <style>
+      p.prueba:hover ~ .prueba{
+        background-color: greenyellow;
+      }
+    </style>
+    <!--Pongo estilo aqui para que se vea el ejemplo-->
+    <!--¿Me puedes dar una pista de porqué funcionan todos las 
+       pruebas menos con el ejemplo de la primera tabla?-->
+
+    <p class="prueba">PASAR CURSOR POR ENCIMA</p>
+    <a href="" class="prueba">Funciona</a>
+    <label class="prueba">Funciona</label>
+    <h2 class="prueba">Funciona</h2>
+
+    <!--Esta primera tabla no funciona (justo lo que necesitaría)-->
+    <table>
+      <tr>
+        <td class="prueba">No Funciona</td>
+      </tr>
+      <tr class="prueba">
+        <td>No Funciona</td>
+      </tr>
+    </table>
+
+    <!--Esta tabla si, pero no me vale para nada-->
+    <table class="prueba">
+      <tr>
+        <td>Funciona</td>
+      </tr>
+      <tr>
+        <td>Funciona</td>
+      </tr>
+    </table>
 </body>
 </html>
