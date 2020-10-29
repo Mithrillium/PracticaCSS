@@ -7,92 +7,85 @@
     <title>Horario</title>
 </head>
 <body>
-    <div class="vMain">Verde!</div>
-        <p>Rojo!</p><p>Azul!</p><p class="vMain">Verde!</p>
-    <div class="vOtros">Firstname</div>
-    <div>
-        <div class="vMain">Verde!Aquiii</div>
-        <p class="prueba">PASA POR AQUI</p>
-        <p class="verde">VENGA FUNCIONA JOPUTAAA</p>
-    <table>
-      <p class="verde">VENGA FUNCIONA JOPUTAAA</p>
-        <div class="vMain">Verde!</div>
-        <div class="vOtros">Firstname</div>
-        <div class="verde">Firstname</div>
-        <p class="prueba">PASA POR AQUI</p>
-        <tr>
-          <th class="verde">Firstname</th>
-          <th>Lastname</th> 
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td class="verde">Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-         <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-        <tr>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
-        </tr>
-        <div class="vOtros">Firstname</div>
-      </table>
-    </div>
-    <!--Al menos esta parte de aqui abajo funciona-->
-
-    <a href="" class="verde">Lolazo</a>
-    <p>loletee</p>
-    <div class="a">Div A</div>
-    <div>random other elements</div>
-    <div class="b">fuuuuck</div>
-    <div>random other elements</div>
-    <div class="b">huehuehue</div>
-    <div>random other elements</div>
-    <div class="b">Div B</div>
-    <p class="prueba">yeheee</p>
-    <p>lol</p>
-    <p class="prueba">yeheee</p>
-    <p>lol</p>
-    <p class="prueba">yeheee</p>
-
-    <!--Pruebas-->
-    <style>
-      p.prueba:hover ~ .prueba{
-        background-color: greenyellow;
-      }
-    </style>
-    <!--Pongo estilo aqui para que se vea el ejemplo-->
-    <!--¿Me puedes dar una pista de porqué funcionan todos las 
-       pruebas menos con el ejemplo de la primera tabla?-->
-
-    <p class="prueba">PASAR CURSOR POR ENCIMA</p>
-    <a href="" class="prueba">Funciona</a>
-    <label class="prueba">Funciona</label>
-    <h2 class="prueba">Funciona</h2>
-
-    <!--Esta primera tabla no funciona (justo lo que necesitaría)-->
-    <table>
-      <tr>
-        <td class="prueba">No Funciona</td>
-      </tr>
-      <tr class="prueba">
-        <td>No Funciona</td>
-      </tr>
-    </table>
-
-    <!--Esta tabla si, pero no me vale para nada-->
-    <table class="prueba">
-      <tr>
-        <td>Funciona</td>
-      </tr>
-      <tr>
-        <td>Funciona</td>
-      </tr>
-    </table>
+  <header>
+    <h1>HORARIO <br> JOAQUÍN SERRANO</h1>
+  </header>
+  <section>
+    <article>
+      <table>
+        <h2>ASIGNATURAS</h2>
+        <h3 class="servidor">Servidor</h3>
+        <h3 class="cliente">Cliente</h3>
+        <h3 class="interfaz">Interfaces</h3>
+        <h3 class="hlc">HLC</h3>
+        <h3 class="libre">Horas Libres</h3>
+        <h2>PROFESOR</h2>
+        <h3 id="dani">Daniel Muniz</h3>
+        <h3 id="javi">Javier Prada</h3>
+        <h3 id="antonio">Antonio Pérez</h3>
+          <tr>
+            <th></th>
+            <th>Lunes</th>
+            <th>Martes</th> 
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+          </tr>
+          <tr>
+            <th>15:00 - 15:30</th>
+            <td colspan="5" class="libre">...</td>
+          </tr>
+          <tr>
+            <th>15:30 - 16:00</th>
+            <td rowspan="3" class="libre">...</td>
+            <td rowspan="3" class="servidor" id="antonio">Desarrollo<br>Web<br>Entorno<br>Servidor</td>
+            <td rowspan="3" class="libre">...</td>
+            <td rowspan="3" class="hlc" id="javi">Horas<br>De<br>Libre<br>Configuración</td>
+            <td rowspan="3" class="interfaz" id="dani">Desarrollo<br>De<br>Interfaces<br>Web</td>
+          </tr>
+          <tr>
+            <th>16:00 - 16:30</th>
+          </tr>
+          <tr>
+            <th>16:30 - 17:00</th>
+          </tr>
+          <tr>
+            <th>17:00 - 17:30</th>
+            <td colspan="5" class="libre">...</td>
+          </tr>
+          <tr>
+            <th>17:30 - 18:00</th>
+            <td rowspan="3" class="servidor" id="antonio">Desarrollo<br>Web<br>Entorno<br>Servidor</td>
+            <td rowspan="7" class="servidor" id="antonio">Desarrollo<br>Web<br>Entorno<br>Servidor</td>
+            <td rowspan="7" class="interfaz" id="dani">Desarrollo<br>De<br>Interfaces<br>Web</td>
+            <td class="hlc">HLC*</td>
+            <td rowspan="7" class="cliente" id="dani">Desarrollo<br>Web<br>Entorno<br>Cliente</td>
+          </tr>
+          <tr>
+            <th>18:00 - 18:30</th>
+            <td rowspan="6" class="libre">...</td>
+          </tr>
+          <tr>
+            <th>18:30 - 19:00</th>
+          </tr>
+          <tr>
+            <th>19:00 - 19:30</th>
+            <td rowspan="4" class="cliente" id="dani">Desarrollo<br>Web<br>Entorno<br>Cliente</td>
+          </tr>
+          <tr>
+            <th>19:30 - 20:00</th>
+          </tr>
+          <tr>
+            <th>20:00 - 20:30</th>
+          </tr>
+          <tr>
+            <th>20:30 - 21:00</th>
+          </tr>
+        </table>
+    </article>
+  </section>
+  <footer>
+    <h4>By Joaquin Serrano. Algún que otro derecho reservado. No estoy seguro.</h4>
+  </footer>
 </body>
 </html>

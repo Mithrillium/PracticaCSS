@@ -1,3 +1,107 @@
+body{
+    background-image: url(img/fondoHorario.jpg);
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-spacing: 0.2em;
+    margin: auto;
+    width: 75%;
+    border-collapse: separate;
+}
+th{
+    background-color: rgb(118, 250, 199);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border: 2px solid;
+    border-color: rgb(114, 238, 247);
+    font-size: x-large;
+}
+td{
+    background-color: rgb(114, 238, 247);
+    font-family: monospace;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+    background-color:rgb(114, 238, 247);
+    margin:auto;
+    width: 50%;
+    border-radius: 20%;
+    margin-bottom: 4px;
+}
+h2{
+    text-align: center;
+    width: 30%;
+    background-color: darkblue;
+    margin:auto;
+    color:white;
+    font-size: xx-large;
+    padding: 4px;
+}
+h3{
+    text-align: center;
+    width:30%;
+    background-color: rgb(118, 250, 199);
+    margin: auto;
+    margin-top:4px;
+    padding: 4px;
+    font-size: x-large;
+}
+h4 {
+    text-align: right;
+    background-color:rgb(114, 238, 247);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    width: 28%;
+    float: right;
+    padding-top:0.7em;
+    padding-bottom: 0.5em;
+}
+
+h3.cliente:hover ~ table tr td.cliente{
+    background-color: greenyellow;
+}
+h3.servidor:hover ~ table tr td.servidor{
+    background-color: greenyellow;
+}
+h3.interfaz:hover ~ table tr td.interfaz{
+    background-color: greenyellow;
+}
+h3.hlc:hover ~ table tr td.hlc{
+    background-color: greenyellow;
+}
+h3.libre:hover ~ table tr td.libre{
+    background-color: greenyellow;
+}
+h3#dani:hover ~ table tr td#dani{
+    background-color: greenyellow;
+}
+h3#javi:hover ~ table tr td#javi{
+    background-color: greenyellow;
+}
+h3#antonio:hover ~ table tr td#antonio{
+    background-color: greenyellow;
+}
+
+td:hover {
+    background-color: rgb(118, 250, 199);
+}
+/*
+*/
+p.prueba:hover ~ table tr td.prueba{
+    background-color: greenyellow;
+}
+
+
+
+/*
+De aqui abajo, son pruebas de estilo
+*/
 .vMain:hover  ~ .vOtros{
     background-color: green;
 }
@@ -26,7 +130,7 @@ webs usadas:
     background: #ccc
 }
 
-p.prueba:hover ~ .prueba{
+p.prueba:hover ~ table tr td.prueba{
     background-color: greenyellow;
 }
 p.verde:hover ~ .verde{
