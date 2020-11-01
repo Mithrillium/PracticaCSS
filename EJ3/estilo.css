@@ -1,0 +1,86 @@
+div.cuaderno a:after{
+    content:url('imagenes/link.png');
+    padding-left:1em;
+}
+
+div.bloqueexplicacion > ol {
+    border: dotted 0.1em black;
+    background-color:white;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+div.bloqueexplicacion > ul {
+    border: dashed 0.1em blue;
+    background-color:white;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+div.bloqueexplicacion dd {
+    border: dotted 0.1em black;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    background-color: #ffd6d6;
+}
+body{
+    width: 65%;
+    margin: auto;
+    background-color: rgba(209, 199, 199, 0.884);
+}
+.cabecera{
+    text-align: center;
+    color:white;
+    background-color: blue;
+    font-size: x-large;
+}
+.lateral{
+    float: left;
+    width: 25%;
+    background-color: blue;
+}
+.lateral img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    background-color: white;
+}
+.central{
+    float: right;
+    width:74%;
+}
+.pie{
+    float: right;
+    text-align: right;
+    background-color: blue;
+    color:  rgba(255, 255, 0);
+    width: 100%;
+    font-weight: bold;
+}
+.lateral li{
+    color: rgba(255, 255, 0);
+    font-weight: bold;
+}
+.lateral li a{
+    color: white;
+    text-decoration: unset;
+}
+.aviso{
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    background-color: rgb(195, 241, 224);
+}
+p.tituloaviso{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+}
+div.aviso p.tituloaviso:after,p.tituloaviso:before{
+    content:url('imagenes/construccion.png');
+}
+.cuerpoaviso{
+    text-align: center;
+}
