@@ -121,10 +121,10 @@ div.aviso p.tituloaviso:after,p.tituloaviso:before{
     margin: auto;
     background-color: rgb(167, 253, 245);
     margin-top: 2px;
-    padding-top: 0.8em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    padding-bottom: 0.8em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
 }
 .salidapantalla{
     color: green;
@@ -135,4 +135,65 @@ div.aviso p.tituloaviso:after,p.tituloaviso:before{
     margin-right: 0.8em;
     margin-bottom: 0.8em;
     padding-left: 0.8em;
+}
+.figura{
+    margin:auto;
+    border-style: solid;
+    border-color: blue;
+    border-width: thin;
+    background-color: white;
+    width: 96.5%;
+    justify-items: center;
+    padding-bottom: 5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.figura img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    max-width: 95%;
+}
+.figura em{
+    margin-left: 28%;
+}
+.codigo{
+    background-color: rgb(81, 92, 243);
+    color:white;
+    border-style: double;
+    border-color: blue;
+    border-width: thick;
+    padding: 5px;
+}
+h4{
+    color: blue;
+    padding-left: 5px;
+}
+dt{
+    font-weight: bold;
+}
+.identificadorExp{
+    border-style: solid;
+    border-color: blue;
+    border-width: medium;
+    background-color: lawngreen ;
+    font-weight: bolder;
+}
+.identificadorEje{
+    border-style: solid;
+    border-color: blue;
+    border-width: medium;
+    background-color: orangered ;
+    font-weight: bolder;
+}
+.ecuacion  img{
+    margin-left: 30%;
+}
+.identificadorPro{
+    border-style: solid;
+    border-color: blue;
+    border-width: medium;
+    background-color: yellow ;
+    font-weight: bolder;
 }
