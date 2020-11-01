@@ -4,7 +4,7 @@ div.cuaderno a:after{
 }
 
 div.bloqueexplicacion > ol {
-    border: dotted 0.1em black;
+    border: dashed 0.1em blue;
     background-color:white;
     padding-top:0.5em;
     padding-bottom:0.5em;
@@ -83,4 +83,56 @@ div.aviso p.tituloaviso:after,p.tituloaviso:before{
 }
 .cuerpoaviso{
     text-align: center;
+}
+.central h2{
+    border-style: double;
+    border-color: blue;
+    border-width: thick;
+    background-color: rgb(195, 241, 224);
+    color:blue;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.areaLimpia{
+    float: right;
+    border-style: dashed;
+    border-width: thick;
+    border-color: blue;
+    background-color: white;
+}
+.cuaderno{
+    background-color: rgb(249, 255, 172);
+    padding-bottom: 0.8em;
+}
+.cuaderno h3{
+    margin: 5px 5px 5px 5px;
+    color: blue;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 5px;
+
+}
+.bloqueexplicacion{
+    width: 95%;
+    margin: auto;
+    background-color: rgb(167, 253, 245);
+    margin-top: 2px;
+    padding-top: 0.8em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-bottom: 0.8em;
+}
+.salidapantalla{
+    color: green;
+    background-color: black;
+    border-style: double;
+    border-color:yellow;
+    border-width: thick;
+    margin-right: 0.8em;
+    margin-bottom: 0.8em;
+    padding-left: 0.8em;
 }
