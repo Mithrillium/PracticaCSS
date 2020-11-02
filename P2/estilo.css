@@ -1,3 +1,33 @@
+     body{
+        width: 65%;
+        margin: auto;
+        background-color:  rgb(202, 201, 201);
+     }
+     .estiloSec img{
+         width: 90%;
+         margin-left: 5%;
+     }
+     .zonaAutor img{
+         margin-left: 2%;
+     }
+     tr:nth-child(even) {
+        background-color:  white;
+     }
+     tr:nth-child(odd) {
+        background-color:  darkgrey;
+     }
+     tr:nth-child(1){
+         background-color:  rgb(45, 2, 80);
+         color:white;
+     }
+     article label{
+         background-color: darkgrey;
+         font-size: large;
+     }
+     /*
+     Hasta aquí cambios generales de este ejercicio (Practica CSS)
+     Hay algunos cambios menores en clases de abajo, colores y tal.
+     */
      .navMenu{
         font-size: large;
         color: black;
@@ -46,21 +76,24 @@
         text-align: center;
         font-size: x-large;
         padding: 5px 5px 5px 5px;
-        background-image: url(img/fondo.jpg);
     }
     .textoIzq{
         text-align: left;
     }
     .zonaAutor{
         float: left;
-        width: 25%;
+        margin-right: 1%;
+        width: 24%;
         height:500px;
+        background-color: white;
+        font-size: large;
     }
     .zonaPost{
         float: left;
-        width: 74%;
+        width: 75%;
         height:500px;
-        padding-left: 1px;
+        background-color: white;
+        font-size: large;
     }
     .textoCabeceraPost{
         text-align: center;
