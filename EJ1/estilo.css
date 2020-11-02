@@ -1,5 +1,7 @@
 body{
     background-image: url(img/fondoHorario.jpg);
+    width: 75%;
+    margin: auto;
 }
 .opciones{
     display: flex;
@@ -8,7 +10,7 @@ body{
 table{
     border-spacing: 0.2em;
     margin: auto;
-    width: 75%;
+    width: 100%;
     border-collapse: separate;
 }
 th{
@@ -72,7 +74,7 @@ h3.servidor:hover ~ table tr td.servidor{
 h3.interfaz:hover ~ table tr td.interfaz{
     background-color: greenyellow;
 }
-h3.hlc:hover ~ table tr td.hlc{
+span.dropt:hover ~ table tr td.hlc{
     background-color: greenyellow;
 }
 h3.libre:hover ~ table tr td.libre{
@@ -87,55 +89,50 @@ h3#javi:hover ~ table tr td#javi{
 h3#antonio:hover ~ table tr td#antonio{
     background-color: greenyellow;
 }
-
 td:hover {
     background-color: rgba(118, 250, 199, 0.795);
 }
-/*
-*/
-p.prueba:hover ~ table tr td.prueba{
+h3:hover{
     background-color: greenyellow;
 }
-
-
-
 /*
-De aqui abajo, son pruebas de estilo
+Copiado de por ahí:
+Al pasar por encima de HLC* sale un cuadro de texto.
+  Lo unico que he hecho yo es cambiarle colores, indicar
+    dónde saldrá ese cuadro y su estilo básico.
+    Fuente: https://www.scientificpsychic.com/etc/css-mouseover.html
 */
-.vMain:hover  ~ .vOtros{
-    background-color: green;
+span.dropt {
+    background-color: rgba(118, 250, 199, 0.795);
 }
-/*
-Esto no va dentro de la tabla, parece que solo funciona con divs
-y aunque coloque un div dentro de un th tampoco funciona.
-
-Como apaño podría poner un 
-        display:flex;
-        justify-content: center;
-con un monton de divs que contienen divs, emulando una tabla.
-
-webs usadas: 
-            https://www.w3schools.com/cssref/sel_hover.asp
-            https://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling
-            https://stackoverflow.com/questions/4502633/how-to-affect-other-elements-when-one-element-is-hovered
-            http://jsfiddle.net/u7tYE/1/
-            (El ultimo un ejemplo útil)
-            Trucos para tablas:
-            https://css-tricks.com/complete-guide-table-element/
-*/
-.vMain:hover ~ th.vOtros{
-    background-color: green;
-}
-.a:hover ~ .b {
-    background: #ccc
-}
-
-p.prueba:hover ~ table tr td.prueba{
+span.dropt:hover {
     background-color: greenyellow;
+     z-index: 6; 
 }
-p.verde:hover ~ .verde{
-    background-color: greenyellow;
+span.dropt span {
+    position: absolute; 
+    left: -9999px;
+    margin: 20px 0 0 0px; 
+    padding: 3px 3px 3px 3px;
+    background-color: rgba(118, 250, 199, 0.795);
 }
-tr ~ th{
-    background-color: maroon;
+span.dropt:hover span {
+    left: 2%; 
+    background-color: rgba(118, 250, 199, 0.795);} 
+span.dropt span {
+    position: absolute; 
+    left: -9999px;
+    margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+    background-color: rgba(118, 250, 199, 0.795);}
+span.dropt:hover span {
+    margin-left: 59.67%;
+    margin-top: -4.5%;
+    background-color: rgba(118, 250, 199, 0.795);
+    z-index:6;
+}
+.oculto{
+    width: 15%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
 }
